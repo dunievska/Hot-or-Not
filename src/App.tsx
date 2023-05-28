@@ -1,11 +1,11 @@
 import React from "react";
 import "./App.scss";
-import LoginView from "./components/LoginView";
+import Button from "theme/Button/Button";
 
 const App = () => {
   return (
     <div className="App">
-      <LoginView></LoginView>
+      <Button type="like" onClick={() => console.log()} />
     </div>
   );
 };
